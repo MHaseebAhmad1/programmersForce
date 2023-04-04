@@ -4,18 +4,27 @@
     font-family:'Poppins',Arial, Helvetica, sans-serif;
     background-color:gainsboro;
 }
-.Billing-info{
-    width: 90%;
-    margin: 50px auto 50px auto;
+.container{
+    width: 100%; 
+    
 }
+.Billing-info{
+    width: 33%;
+    margin: 50px auto 50px auto;
+    border-radius: 5px;
+}
+
 h1{
     text-align: center;
     margin: 20px 0px 20px 0px;
+    background-color: #eab0d6;
 }
-.form{
+/* .tables form{
     width: 100%;
+    background-color: #eab0d6;
     margin: auto;
 }
+*/
 .form .form-col{
     display: flex;
     flex-direction: column;
@@ -30,6 +39,7 @@ h1{
     outline: none;
     border-bottom: 1px solid gray;
     border-radius: 5px;
+    background-color: #eab0d6;
 }
 .form .form-row .label-order{
     margin-right: 7px;
@@ -40,61 +50,40 @@ h1{
 .form .form-row .label-cnic{
     margin-right: 71px;
 }
-
-
 h2{
     text-align: left;
     margin: 20px 0px 10px 0px;
 }
-
-table,td,th{
-    border: 1px solid black;    
-}
 table{
-    border-collapse: collapse;
     width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
 }
-fieldset{
-    padding: 5px;
-}
-.product-table tbody tr:nth-child(even)
-{
-    background-color: #e7a0a0;
-}
-
-fieldset{
-    padding: 5px;
-}
-
-tbody tr td input{
-    width: 90%;
-    border: 1px;
-    outline: none;
-    font-size: 18px;
-    padding: 2px 17px 2px 17px;
-    /* padding-left: 10px; */
-}
-
-
-tr th{
+table tr th{
     padding: 10px;
     text-align: left;
-    background-color:cornflowerblue ;
+    background-color:rgb(165, 189, 233) ;
+    border-radius: 5px;
 }
-/* td input{
+tr td{
     width: 100%;
-    border: 0px;
+}
+tbody tr td input{
+    border-radius: 5px;
+    border: none;
     outline: none;
-} */
-
+    font-size: 14px;
+    padding: 1px 2px 1px 2px;
+    background-color: #eab0d6;
+}
 .btn{
     text-align: right;
     margin-top: 5px;
 }
-
 .btn button{
     padding: 5px;
     font-size: 18px;
+    margin: auto;
     border-radius: 5px;
     color: black;
 }
@@ -102,20 +91,3 @@ tr th{
     color: white;
     background-color: black ;
 }
-
-
-
-
-
-
-
-
-/* th{
-    width: 100px;
-}
-td{
-height: 18px;
-}
-button{
-float: right;
-} */
