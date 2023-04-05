@@ -17,7 +17,7 @@
 h1{
     text-align: center;
     margin: 20px 0px 20px 0px;
-    background-color: #eab0d6;
+    background-color: #bfb0f1;
 }
 /* .tables form{
     width: 100%;
@@ -39,7 +39,7 @@ h1{
     outline: none;
     border-bottom: 1px solid gray;
     border-radius: 5px;
-    background-color: #eab0d6;
+    background-color: #bfb0f1;
 }
 .form .form-row .label-order{
     margin-right: 7px;
@@ -74,7 +74,7 @@ tbody tr td input{
     outline: none;
     font-size: 14px;
     padding: 1px 2px 1px 2px;
-    background-color: #eab0d6;
+    background-color: #bfb0f1;
 }
 .btn{
     text-align: right;
