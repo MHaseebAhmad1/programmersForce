@@ -5,26 +5,18 @@
     background-color:gainsboro;
 }
 .container{
-    width: 100%; 
-    
+    width: 100%;  
 }
 .Billing-info{
     width: 33%;
     margin: 50px auto 50px auto;
     border-radius: 5px;
 }
-
 h1{
     text-align: center;
     margin: 20px 0px 20px 0px;
     background-color: #bfb0f1;
 }
-/* .tables form{
-    width: 100%;
-    background-color: #eab0d6;
-    margin: auto;
-}
-*/
 .form .form-col{
     display: flex;
     flex-direction: column;
